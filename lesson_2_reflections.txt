@@ -6,3 +6,34 @@ Você prepara um repositório para rastrear os arquivos contidos numa pasta. Pre
 2) Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
 
 A área de preparação é uma área intermediária, onde são preparados os arquivos a serem enviados ao repositório, para que haja um texto de commit inicial neles ao invés de simplesmente copiar os arquivos.
+
+---------------------------------------------------------------------------------------
+3) Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+
+Usando 'git add <filename>' e logo depois um 'git commit', escrevendo a mensagem de commit num editor de texto, ou no terminal.
+
+---------------------------------------------------------------------------------------
+4) Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+
+Seriam úteis caso fosse adicionar uma feature experimental, ou uma tradução da aplicação. Com isso, se algo der errado, será no branch experimental, não no master, sendo mais fácil de detectar os erros e fazer o que quiser com o branch experimental.
+
+---------------------------------------------------------------------------------------
+5) Como os diagramas ajudam a visualizar a estrutura de branches?
+
+Podemos visualizar com mais facilidade quais ramificações existem, que adicionam features novas ou experimentais ao projeto.
+
+---------------------------------------------------------------------------------------
+6) Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+
+Ao fundir 2 branches, é como se aplicassem as alterações de ambos num só. Porque fica mais fácil de visualizar os commits de cada branch para fundi-los depois.
+
+---------------------------------------------------------------------------------------
+7) Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+
+Git:
+Prós: requer menos esforço
+Contras: às vezes precisa da interferência humana
+
+Manualmente:
+Prós: não sei lol
+Contras: requer mais esforço
