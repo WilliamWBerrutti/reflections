@@ -1,0 +1,8 @@
+1) O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+
+Você prepara um repositório para rastrear os arquivos contidos numa pasta. Preciso fazer isso para manter um histórico de alterações, para que fique mais fácil de acompanhar as alterações feitas.
+
+---------------------------------------------------------------------------------------
+2) Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+
+A área de preparação é uma área intermediária, onde são preparados os arquivos a serem enviados ao repositório, para que haja um texto de commit inicial neles ao invés de simplesmente copiar os arquivos.
